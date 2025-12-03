@@ -17,15 +17,21 @@ export default function Hero() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                 >
+                    <div className="flex justify-center mb-8">
+                        <div className="relative w-80 h-40 md:w-[600px] md:h-[300px]">
+                            <img src="/hero_logo.png" alt="VoixCore Hero Logo" className="object-contain w-full h-full" />
+                        </div>
+                    </div>
                     <span className="inline-block py-1 px-3 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6 border border-primary/20">
-                        🚀 Mainnet is Live
+                        VOIXCORE - VOIXN
                     </span>
                     <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-400">
-                        The Sovereign <br />
-                        <span className="text-primary">Layer 1 Blockchain</span>
+                        Grow Without Limits
                     </h1>
-                    <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-                        VoixCore is a high-performance, EVM-compatible blockchain built for the next generation of decentralized applications.
+                    <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8 whitespace-pre-line">
+                        Voixcore Blockchain Voice{"\n"}
+                        Sovereign You and I Advance Without Limits{"\n"}
+                        Powered by VOIXN's native coin
                     </p>
 
                     <div className="flex flex-col md:flex-row items-center justify-center gap-4">
@@ -33,9 +39,9 @@ export default function Hero() {
                             Explore Mainnet
                             <ArrowRight className="group-hover:translate-x-1 transition-transform" />
                         </Link>
-                        <button className="px-8 py-4 rounded-xl font-bold text-lg border border-border hover:bg-secondary transition-colors text-foreground">
+                        <Link href="/whitepaper" className="px-8 py-4 rounded-xl font-bold text-lg border border-border hover:bg-secondary transition-colors text-foreground flex items-center justify-center">
                             Read Whitepaper
-                        </button>
+                        </Link>
                     </div>
                 </motion.div>
             </div>

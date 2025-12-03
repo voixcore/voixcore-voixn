@@ -5,26 +5,26 @@ const Roadmap = () => {
     const milestones = [
         {
             quarter: 'Q4 2024',
-            title: 'Genesis & Mainnet',
+            title: 'Genesis & Foundation',
             description: 'Successful launch of VoixCore Mainnet, Genesis Block creation, and Explorer deployment.',
             status: 'completed'
         },
         {
             quarter: 'Q1 2025',
-            title: 'Ecosystem Foundation',
-            description: 'Launch of VoixSwap (DEX), Token Standards, and Developer Documentation.',
+            title: 'Expansion & Presale 1',
+            description: 'Launch of Presale Stage 1, Airdrop Phase 1 distribution, and Wallet Beta release.',
             status: 'upcoming'
         },
         {
             quarter: 'Q2 2025',
-            title: 'Community Growth',
-            description: 'Major Airdrop Campaign, Community Governance implementation, and Strategic Partnerships.',
+            title: 'Growth & Presale 2',
+            description: 'Presale Stage 2, Airdrop Phase 2, DEX Launch (VoixSwap), and Community Governance.',
             status: 'upcoming'
         },
         {
             quarter: 'Q3 2025',
-            title: 'Global Expansion',
-            description: 'Tier 1 CEX Listings, Cross-chain Bridges, and Mobile Wallet launch.',
+            title: 'Maturity & Presale 3',
+            description: 'Final Presale Stage 3, Tier 1 CEX Listings, and Global Ecosystem Expansion.',
             status: 'upcoming'
         }
     ];

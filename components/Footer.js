@@ -8,8 +8,8 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
                     <div className="col-span-1 md:col-span-2">
                         <div className="flex items-center gap-2 mb-4">
-                            <div className="w-8 h-8 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center text-black font-bold text-xl">
-                                V
+                            <div className="relative w-8 h-8">
+                                <img src="/logo_web.png" alt="VoixCore Logo" className="object-contain w-full h-full" />
                             </div>
                             <span className="text-xl font-bold text-foreground">VoixCore</span>
                         </div>

@@ -12,8 +12,8 @@ export default function Navbar() {
             <div className="container mx-auto px-4 h-16 flex items-center justify-between">
                 {/* Logo */}
                 <Link href="/" className="flex items-center gap-2">
-                    <div className="w-8 h-8 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center text-black font-bold text-xl">
-                        V
+                    <div className="relative w-8 h-8">
+                        <img src="/logo_web.png" alt="VoixCore Logo" className="object-contain w-full h-full" />
                     </div>
                     <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
                         VoixCore
